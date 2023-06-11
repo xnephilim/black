@@ -9,12 +9,12 @@ import (
 	"github.com/cosmos/cosmos-sdk/crypto/keyring"
 	"github.com/cosmos/cosmos-sdk/simapp/params"
 
-	"github.com/black/black/v13/app"
-	"github.com/black/black/v13/crypto/hd"
-	"github.com/black/black/v13/encoding"
-	"github.com/black/black/v13/tests/integration/ledger/mocks"
-	"github.com/black/black/v13/testutil"
-	utiltx "github.com/black/black/v13/testutil/tx"
+	"github.com/xnephilim/black/v13/app"
+	"github.com/xnephilim/black/v13/crypto/hd"
+	"github.com/xnephilim/black/v13/encoding"
+	"github.com/xnephilim/black/v13/tests/integration/ledger/mocks"
+	"github.com/xnephilim/black/v13/testutil"
+	utiltx "github.com/xnephilim/black/v13/testutil/tx"
 
 	"github.com/spf13/cobra"
 

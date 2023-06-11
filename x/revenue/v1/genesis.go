@@ -7,8 +7,8 @@ import (
 	errorsmod "cosmossdk.io/errors"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/black/black/v13/x/revenue/v1/keeper"
-	"github.com/black/black/v13/x/revenue/v1/types"
+	"github.com/xnephilim/black/v13/x/revenue/v1/keeper"
+	"github.com/xnephilim/black/v13/x/revenue/v1/types"
 )
 
 // InitGenesis import module genesis

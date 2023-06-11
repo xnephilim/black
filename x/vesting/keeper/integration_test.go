@@ -13,11 +13,11 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	sdkvesting "github.com/cosmos/cosmos-sdk/x/auth/vesting/types"
 
-	"github.com/black/black/v13/crypto/ethsecp256k1"
-	"github.com/black/black/v13/testutil"
-	utiltx "github.com/black/black/v13/testutil/tx"
-	"github.com/black/black/v13/utils"
-	"github.com/black/black/v13/x/vesting/types"
+	"github.com/xnephilim/black/v13/crypto/ethsecp256k1"
+	"github.com/xnephilim/black/v13/testutil"
+	utiltx "github.com/xnephilim/black/v13/testutil/tx"
+	"github.com/xnephilim/black/v13/utils"
+	"github.com/xnephilim/black/v13/x/vesting/types"
 )
 
 // TestClawbackAccount is a struct to store all relevant information that is corresponding

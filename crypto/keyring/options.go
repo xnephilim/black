@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package keyring
 
@@ -8,9 +8,9 @@ import (
 	cosmosLedger "github.com/cosmos/cosmos-sdk/crypto/ledger"
 	"github.com/cosmos/cosmos-sdk/crypto/types"
 
-	"github.com/black/black-ledger-go/ledger"
-	"github.com/black/black/v13/crypto/ethsecp256k1"
-	"github.com/black/black/v13/crypto/hd"
+	"github.com/xnephilim/black-ledger-go/ledger"
+	"github.com/xnephilim/black/v13/crypto/ethsecp256k1"
+	"github.com/xnephilim/black/v13/crypto/hd"
 )
 
 // AppName defines the Ledger app used for signing. Black uses the Ethereum app

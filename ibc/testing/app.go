@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package ibctesting
 
@@ -22,9 +22,9 @@ import (
 
 	ibcgotesting "github.com/cosmos/ibc-go/v6/testing"
 
-	blackapp "github.com/black/black/v13/app"
-	"github.com/black/black/v13/types"
-	"github.com/black/black/v13/utils"
+	blackapp "github.com/xnephilim/black/v13/app"
+	"github.com/xnephilim/black/v13/types"
+	"github.com/xnephilim/black/v13/utils"
 )
 
 var DefaultTestingAppInit func() (ibcgotesting.TestingApp, map[string]json.RawMessage) = blackapp.SetupTestingApp

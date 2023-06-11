@@ -1,6 +1,6 @@
 FROM golang:1.20.5-bullseye AS build-env
 
-WORKDIR /go/src/github.com/black/black
+WORKDIR /go/src/github.com/xnephilim/black
 
 COPY . .
 
@@ -13,7 +13,7 @@ RUN apt-get update  \
 
 WORKDIR /root
 
-COPY --from=build-env /go/src/github.com/black/black/build/black /usr/bin/black
+COPY --from=build-env /go/src/github.com/xnephilim/black/build/black /usr/bin/black
 
 EXPOSE 26656 26657 1317 9090 8545 8546
 

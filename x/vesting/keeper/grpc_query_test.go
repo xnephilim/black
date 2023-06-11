@@ -6,9 +6,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	"github.com/black/black/v13/testutil"
-	utiltx "github.com/black/black/v13/testutil/tx"
-	"github.com/black/black/v13/x/vesting/types"
+	"github.com/xnephilim/black/v13/testutil"
+	utiltx "github.com/xnephilim/black/v13/testutil/tx"
+	"github.com/xnephilim/black/v13/x/vesting/types"
 )
 
 func (suite *KeeperTestSuite) TestBalances() {

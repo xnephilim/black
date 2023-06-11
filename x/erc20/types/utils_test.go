@@ -6,7 +6,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/black/black/v13/x/erc20/types"
+	"github.com/xnephilim/black/v13/x/erc20/types"
 	"github.com/stretchr/testify/require"
 )
 

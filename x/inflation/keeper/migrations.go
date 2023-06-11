@@ -1,13 +1,13 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package keeper
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	v2 "github.com/black/black/v13/x/inflation/migrations/v2"
-	v3 "github.com/black/black/v13/x/inflation/migrations/v3"
-	"github.com/black/black/v13/x/inflation/types"
+	v2 "github.com/xnephilim/black/v13/x/inflation/migrations/v2"
+	v3 "github.com/xnephilim/black/v13/x/inflation/migrations/v3"
+	"github.com/xnephilim/black/v13/x/inflation/types"
 )
 
 // Migrator is a struct for handling in-place store migrations.

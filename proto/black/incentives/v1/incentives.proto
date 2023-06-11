@@ -4,7 +4,7 @@ package black.incentives.v1;
 import "cosmos/base/v1beta1/coin.proto";
 import "gogoproto/gogo.proto";
 import "google/protobuf/timestamp.proto";
-option go_package = "github.com/black/black/v13/x/incentives/types";
+option go_package = "github.com/xnephilim/black/v13/x/incentives/types";
 
 // Incentive defines an instance that organizes distribution conditions for a
 // given smart contract

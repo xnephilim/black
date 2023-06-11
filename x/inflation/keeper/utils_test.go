@@ -4,11 +4,11 @@ import (
 	"time"
 
 	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/black/black/v13/app"
-	"github.com/black/black/v13/testutil"
-	epochstypes "github.com/black/black/v13/x/epochs/types"
-	evm "github.com/black/black/v13/x/evm/types"
-	"github.com/black/black/v13/x/inflation/types"
+	"github.com/xnephilim/black/v13/app"
+	"github.com/xnephilim/black/v13/testutil"
+	epochstypes "github.com/xnephilim/black/v13/x/epochs/types"
+	evm "github.com/xnephilim/black/v13/x/evm/types"
+	"github.com/xnephilim/black/v13/x/inflation/types"
 )
 
 // Test helpers

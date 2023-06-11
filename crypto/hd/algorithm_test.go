@@ -13,9 +13,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec/types"
 	"github.com/cosmos/cosmos-sdk/crypto/keyring"
 
-	cryptocodec "github.com/black/black/v13/crypto/codec"
-	enccodec "github.com/black/black/v13/encoding/codec"
-	blacktypes "github.com/black/black/v13/types"
+	cryptocodec "github.com/xnephilim/black/v13/crypto/codec"
+	enccodec "github.com/xnephilim/black/v13/encoding/codec"
+	blacktypes "github.com/xnephilim/black/v13/types"
 )
 
 var TestCodec amino.Codec

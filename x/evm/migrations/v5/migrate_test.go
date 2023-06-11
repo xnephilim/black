@@ -12,7 +12,7 @@
 // GNU Lesser General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
-// along with the Black packages. If not, see https://github.com/black/black/blob/main/LICENSE
+// along with the Black packages. If not, see https://github.com/xnephilim/black/blob/main/LICENSE
 package v5_test
 
 import (
@@ -22,11 +22,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/black/black/v13/app"
-	"github.com/black/black/v13/encoding"
-	v5 "github.com/black/black/v13/x/evm/migrations/v5"
-	v5types "github.com/black/black/v13/x/evm/migrations/v5/types"
-	"github.com/black/black/v13/x/evm/types"
+	"github.com/xnephilim/black/v13/app"
+	"github.com/xnephilim/black/v13/encoding"
+	v5 "github.com/xnephilim/black/v13/x/evm/migrations/v5"
+	v5types "github.com/xnephilim/black/v13/x/evm/migrations/v5/types"
+	"github.com/xnephilim/black/v13/x/evm/types"
 )
 
 func TestMigrate(t *testing.T) {

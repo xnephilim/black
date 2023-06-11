@@ -9,10 +9,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/suite"
 
-	evm "github.com/black/black/v13/x/evm/types"
+	evm "github.com/xnephilim/black/v13/x/evm/types"
 
-	"github.com/black/black/v13/app"
-	"github.com/black/black/v13/x/epochs/types"
+	"github.com/xnephilim/black/v13/app"
+	"github.com/xnephilim/black/v13/x/epochs/types"
 )
 
 type KeeperTestSuite struct {

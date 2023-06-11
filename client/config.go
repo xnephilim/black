@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 package client
 
 import (
@@ -14,7 +14,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/client/flags"
 
-	"github.com/black/black/v13/types"
+	"github.com/xnephilim/black/v13/types"
 )
 
 // InitConfig adds the chain-id, encoding and output flags to the persistent flag set.

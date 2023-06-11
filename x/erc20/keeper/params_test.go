@@ -3,7 +3,7 @@ package keeper_test
 import (
 	"reflect"
 
-	"github.com/black/black/v13/x/erc20/types"
+	"github.com/xnephilim/black/v13/x/erc20/types"
 )
 
 func (suite *KeeperTestSuite) TestParams() {

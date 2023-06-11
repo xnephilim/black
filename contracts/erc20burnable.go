@@ -1,12 +1,12 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 package contracts
 
 import (
 	_ "embed" // embed compiled smart contract
 	"encoding/json"
 
-	evmtypes "github.com/black/black/v13/x/evm/types"
+	evmtypes "github.com/xnephilim/black/v13/x/evm/types"
 )
 
 var (

@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 package txpool
 
 import (
@@ -7,7 +7,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common/hexutil"
 
-	"github.com/black/black/v13/rpc/types"
+	"github.com/xnephilim/black/v13/rpc/types"
 )
 
 // PublicAPI offers and API for the transaction pool. It only operates on data that is non-confidential.

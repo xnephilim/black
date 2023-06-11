@@ -6,10 +6,10 @@ import (
 
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	blacktypes "github.com/black/black/v13/types"
-	"github.com/black/black/v13/x/evm/keeper"
-	"github.com/black/black/v13/x/evm/statedb"
-	evmtypes "github.com/black/black/v13/x/evm/types"
+	blacktypes "github.com/xnephilim/black/v13/types"
+	"github.com/xnephilim/black/v13/x/evm/keeper"
+	"github.com/xnephilim/black/v13/x/evm/statedb"
+	evmtypes "github.com/xnephilim/black/v13/x/evm/types"
 
 	"github.com/ethereum/go-ethereum/common"
 

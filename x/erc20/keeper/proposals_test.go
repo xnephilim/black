@@ -12,12 +12,12 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	utiltx "github.com/black/black/v13/testutil/tx"
-	evmtypes "github.com/black/black/v13/x/evm/types"
+	utiltx "github.com/xnephilim/black/v13/testutil/tx"
+	evmtypes "github.com/xnephilim/black/v13/x/evm/types"
 
-	"github.com/black/black/v13/x/erc20/keeper"
-	"github.com/black/black/v13/x/erc20/types"
-	inflationtypes "github.com/black/black/v13/x/inflation/types"
+	"github.com/xnephilim/black/v13/x/erc20/keeper"
+	"github.com/xnephilim/black/v13/x/erc20/types"
+	inflationtypes "github.com/xnephilim/black/v13/x/inflation/types"
 )
 
 const (

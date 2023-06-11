@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/black/black/v13/utils"
-	"github.com/black/black/v13/x/erc20/keeper"
+	"github.com/xnephilim/black/v13/utils"
+	"github.com/xnephilim/black/v13/x/erc20/keeper"
 
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 
@@ -15,8 +15,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/black/black/v13/crypto/ethsecp256k1"
-	"github.com/black/black/v13/testutil"
+	"github.com/xnephilim/black/v13/crypto/ethsecp256k1"
+	"github.com/xnephilim/black/v13/testutil"
 
 	transfertypes "github.com/cosmos/ibc-go/v6/modules/apps/transfer/types"
 	clienttypes "github.com/cosmos/ibc-go/v6/modules/core/02-client/types"
@@ -24,11 +24,11 @@ import (
 	ibcgotesting "github.com/cosmos/ibc-go/v6/testing"
 	ibcmock "github.com/cosmos/ibc-go/v6/testing/mock"
 
-	"github.com/black/black/v13/contracts"
-	claimstypes "github.com/black/black/v13/x/claims/types"
-	"github.com/black/black/v13/x/erc20/types"
-	inflationtypes "github.com/black/black/v13/x/inflation/types"
-	vestingtypes "github.com/black/black/v13/x/vesting/types"
+	"github.com/xnephilim/black/v13/contracts"
+	claimstypes "github.com/xnephilim/black/v13/x/claims/types"
+	"github.com/xnephilim/black/v13/x/erc20/types"
+	inflationtypes "github.com/xnephilim/black/v13/x/inflation/types"
+	vestingtypes "github.com/xnephilim/black/v13/x/vesting/types"
 )
 
 var erc20Denom = "erc20/0xdac17f958d2ee523a2206206994597c13d831ec7"

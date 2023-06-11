@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package main
 
@@ -38,17 +38,17 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/crisis"
 	genutilcli "github.com/cosmos/cosmos-sdk/x/genutil/client/cli"
 
-	blackclient "github.com/black/black/v13/client"
-	"github.com/black/black/v13/client/debug"
-	"github.com/black/black/v13/encoding"
-	"github.com/black/black/v13/ethereum/eip712"
-	blackserver "github.com/black/black/v13/server"
-	servercfg "github.com/black/black/v13/server/config"
-	srvflags "github.com/black/black/v13/server/flags"
+	blackclient "github.com/xnephilim/black/v13/client"
+	"github.com/xnephilim/black/v13/client/debug"
+	"github.com/xnephilim/black/v13/encoding"
+	"github.com/xnephilim/black/v13/ethereum/eip712"
+	blackserver "github.com/xnephilim/black/v13/server"
+	servercfg "github.com/xnephilim/black/v13/server/config"
+	srvflags "github.com/xnephilim/black/v13/server/flags"
 
-	"github.com/black/black/v13/app"
-	cmdcfg "github.com/black/black/v13/cmd/config"
-	blackkr "github.com/black/black/v13/crypto/keyring"
+	"github.com/xnephilim/black/v13/app"
+	cmdcfg "github.com/xnephilim/black/v13/cmd/config"
+	blackkr "github.com/xnephilim/black/v13/crypto/keyring"
 )
 
 const (

@@ -17,12 +17,12 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/black/black/v13/crypto/ethsecp256k1"
-	utiltx "github.com/black/black/v13/testutil/tx"
+	"github.com/xnephilim/black/v13/crypto/ethsecp256k1"
+	utiltx "github.com/xnephilim/black/v13/testutil/tx"
 
-	"github.com/black/black/v13/app"
-	"github.com/black/black/v13/encoding"
-	"github.com/black/black/v13/x/evm/types"
+	"github.com/xnephilim/black/v13/app"
+	"github.com/xnephilim/black/v13/encoding"
+	"github.com/xnephilim/black/v13/x/evm/types"
 )
 
 const invalidAddress = "0x0000"

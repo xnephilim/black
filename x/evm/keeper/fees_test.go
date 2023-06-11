@@ -8,8 +8,8 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	ethparams "github.com/ethereum/go-ethereum/params"
-	"github.com/black/black/v13/x/evm/keeper"
-	evmtypes "github.com/black/black/v13/x/evm/types"
+	"github.com/xnephilim/black/v13/x/evm/keeper"
+	evmtypes "github.com/xnephilim/black/v13/x/evm/types"
 )
 
 func (suite *KeeperTestSuite) TestCheckSenderBalance() {

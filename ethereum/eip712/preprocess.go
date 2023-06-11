@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 package eip712
 
 import (
@@ -10,7 +10,7 @@ import (
 	cosmoskr "github.com/cosmos/cosmos-sdk/crypto/keyring"
 	"github.com/cosmos/cosmos-sdk/types/tx/signing"
 	authtx "github.com/cosmos/cosmos-sdk/x/auth/tx"
-	"github.com/black/black/v13/types"
+	"github.com/xnephilim/black/v13/types"
 )
 
 // PreprocessLedgerTx reformats Ledger-signed Cosmos transactions to match the fork expected by Ethermint

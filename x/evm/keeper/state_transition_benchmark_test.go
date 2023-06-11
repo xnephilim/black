@@ -11,7 +11,7 @@ import (
 	"github.com/ethereum/go-ethereum/core"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/params"
-	evmtypes "github.com/black/black/v13/x/evm/types"
+	evmtypes "github.com/xnephilim/black/v13/x/evm/types"
 	"github.com/stretchr/testify/require"
 )
 

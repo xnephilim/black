@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package v9
 
@@ -11,7 +11,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	distrKeeper "github.com/cosmos/cosmos-sdk/x/distribution/keeper"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
-	"github.com/black/black/v13/utils"
+	"github.com/xnephilim/black/v13/utils"
 )
 
 // CreateUpgradeHandler creates an SDK upgrade handler for v9

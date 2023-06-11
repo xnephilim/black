@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package types
 
@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/black/black/v13/utils"
-	"github.com/black/black/v13/x/claims/types"
+	"github.com/xnephilim/black/v13/utils"
+	"github.com/xnephilim/black/v13/x/claims/types"
 
 	errorsmod "cosmossdk.io/errors"
 	sdk "github.com/cosmos/cosmos-sdk/types"

@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 package types
 
 import (
@@ -11,8 +11,8 @@ import (
 	"github.com/ethereum/go-ethereum/core/vm"
 	"github.com/ethereum/go-ethereum/params"
 
-	"github.com/black/black/v13/types"
-	"github.com/black/black/v13/utils"
+	"github.com/xnephilim/black/v13/types"
+	"github.com/xnephilim/black/v13/utils"
 )
 
 var (

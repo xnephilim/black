@@ -13,7 +13,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/version"
 
-	"github.com/black/black/v13/x/revenue/v1/types"
+	"github.com/xnephilim/black/v13/x/revenue/v1/types"
 )
 
 // GetQueryCmd returns the cli query commands for this module

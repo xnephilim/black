@@ -4,7 +4,7 @@ import (
 	sdkmath "cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	ethparams "github.com/ethereum/go-ethereum/params"
-	"github.com/black/black/v13/x/feemarket/types"
+	"github.com/xnephilim/black/v13/x/feemarket/types"
 )
 
 func (suite *KeeperTestSuite) TestQueryParams() {

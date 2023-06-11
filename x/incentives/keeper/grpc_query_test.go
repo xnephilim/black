@@ -6,7 +6,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/query"
 
-	"github.com/black/black/v13/x/incentives/types"
+	"github.com/xnephilim/black/v13/x/incentives/types"
 )
 
 func (suite *KeeperTestSuite) TestIncentives() {

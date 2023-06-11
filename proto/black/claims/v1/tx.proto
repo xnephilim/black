@@ -6,7 +6,7 @@ import "cosmos_proto/cosmos.proto";
 import "black/claims/v1/genesis.proto";
 import "gogoproto/gogo.proto";
 
-option go_package = "github.com/black/black/v13/x/claims/types";
+option go_package = "github.com/xnephilim/black/v13/x/claims/types";
 
 // Msg defines the claims Msg service.
 service Msg {

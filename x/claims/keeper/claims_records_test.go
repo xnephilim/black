@@ -3,7 +3,7 @@ package keeper_test
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/black/black/v13/x/claims/types"
+	"github.com/xnephilim/black/v13/x/claims/types"
 )
 
 func (suite *KeeperTestSuite) TestsClaimsRecords() {

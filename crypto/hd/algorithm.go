@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 package hd
 
 import (
@@ -14,7 +14,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/crypto/keyring"
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
 
-	"github.com/black/black/v13/crypto/ethsecp256k1"
+	"github.com/xnephilim/black/v13/crypto/ethsecp256k1"
 )
 
 const (

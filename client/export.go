@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 package client
 
 import (
@@ -15,8 +15,8 @@ import (
 	"github.com/spf13/cobra"
 
 	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/black/black/v13/crypto/ethsecp256k1"
-	"github.com/black/black/v13/crypto/hd"
+	"github.com/xnephilim/black/v13/crypto/ethsecp256k1"
+	"github.com/xnephilim/black/v13/crypto/hd"
 )
 
 // UnsafeExportEthKeyCommand exports a key with the given name as a private key in hex format.

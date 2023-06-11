@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package testutil
 
@@ -17,9 +17,9 @@ import (
 	stakingkeeper "github.com/cosmos/cosmos-sdk/x/staking/keeper"
 	"github.com/cosmos/cosmos-sdk/x/staking/teststaking"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
-	"github.com/black/black/v13/app"
-	testutiltx "github.com/black/black/v13/testutil/tx"
-	"github.com/black/black/v13/utils"
+	"github.com/xnephilim/black/v13/app"
+	testutiltx "github.com/xnephilim/black/v13/testutil/tx"
+	"github.com/xnephilim/black/v13/utils"
 )
 
 // CreateValidator creates a validator with the provided public key and stake amount

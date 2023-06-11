@@ -10,13 +10,13 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/black/black/v13/crypto/ethsecp256k1"
-	"github.com/black/black/v13/testutil"
-	feemarkettypes "github.com/black/black/v13/x/feemarket/types"
+	"github.com/xnephilim/black/v13/crypto/ethsecp256k1"
+	"github.com/xnephilim/black/v13/testutil"
+	feemarkettypes "github.com/xnephilim/black/v13/x/feemarket/types"
 
-	"github.com/black/black/v13/app"
-	v12 "github.com/black/black/v13/app/upgrades/v12"
-	"github.com/black/black/v13/utils"
+	"github.com/xnephilim/black/v13/app"
+	v12 "github.com/xnephilim/black/v13/app/upgrades/v12"
+	"github.com/xnephilim/black/v13/utils"
 )
 
 type UpgradeTestSuite struct {

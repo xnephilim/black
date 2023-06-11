@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/black/black/v13/tests/e2e/upgrade"
-	"github.com/black/black/v13/utils"
+	"github.com/xnephilim/black/v13/tests/e2e/upgrade"
+	"github.com/xnephilim/black/v13/utils"
 )
 
 const (

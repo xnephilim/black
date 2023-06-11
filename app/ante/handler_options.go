@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package ante
 
@@ -14,14 +14,14 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	ibcante "github.com/cosmos/ibc-go/v6/modules/core/ante"
 	ibckeeper "github.com/cosmos/ibc-go/v6/modules/core/keeper"
-	anteutils "github.com/black/black/v13/app/ante/utils"
+	anteutils "github.com/xnephilim/black/v13/app/ante/utils"
 
-	cosmosante "github.com/black/black/v13/app/ante/cosmos"
-	evmante "github.com/black/black/v13/app/ante/evm"
-	evmtypes "github.com/black/black/v13/x/evm/types"
+	cosmosante "github.com/xnephilim/black/v13/app/ante/cosmos"
+	evmante "github.com/xnephilim/black/v13/app/ante/evm"
+	evmtypes "github.com/xnephilim/black/v13/x/evm/types"
 
 	sdkvesting "github.com/cosmos/cosmos-sdk/x/auth/vesting/types"
-	vestingtypes "github.com/black/black/v13/x/vesting/types"
+	vestingtypes "github.com/xnephilim/black/v13/x/vesting/types"
 )
 
 // HandlerOptions defines the list of module keepers required to run the Black

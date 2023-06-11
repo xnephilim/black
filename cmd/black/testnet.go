@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package main
 
@@ -40,16 +40,16 @@ import (
 	govv1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/black/black/v13/crypto/hd"
-	"github.com/black/black/v13/server/config"
-	srvflags "github.com/black/black/v13/server/flags"
+	"github.com/xnephilim/black/v13/crypto/hd"
+	"github.com/xnephilim/black/v13/server/config"
+	srvflags "github.com/xnephilim/black/v13/server/flags"
 
-	blacktypes "github.com/black/black/v13/types"
-	evmtypes "github.com/black/black/v13/x/evm/types"
+	blacktypes "github.com/xnephilim/black/v13/types"
+	evmtypes "github.com/xnephilim/black/v13/x/evm/types"
 
-	cmdcfg "github.com/black/black/v13/cmd/config"
-	blackkr "github.com/black/black/v13/crypto/keyring"
-	"github.com/black/black/v13/testutil/network"
+	cmdcfg "github.com/xnephilim/black/v13/cmd/config"
+	blackkr "github.com/xnephilim/black/v13/crypto/keyring"
+	"github.com/xnephilim/black/v13/testutil/network"
 )
 
 var (

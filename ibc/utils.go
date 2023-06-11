@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package ibc
 
@@ -11,7 +11,7 @@ import (
 	transfertypes "github.com/cosmos/ibc-go/v6/modules/apps/transfer/types"
 	channeltypes "github.com/cosmos/ibc-go/v6/modules/core/04-channel/types"
 
-	"github.com/black/black/v13/utils"
+	"github.com/xnephilim/black/v13/utils"
 )
 
 // GetTransferSenderRecipient returns the sender and recipient sdk.AccAddresses

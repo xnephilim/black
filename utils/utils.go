@@ -1,12 +1,12 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package utils
 
 import (
 	"strings"
 
-	"github.com/black/black/v13/crypto/ethsecp256k1"
+	"github.com/xnephilim/black/v13/crypto/ethsecp256k1"
 
 	errorsmod "cosmossdk.io/errors"
 	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"

@@ -12,12 +12,12 @@ import (
 	govv1beta1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/black/black/v13/crypto/ethsecp256k1"
-	"github.com/black/black/v13/testutil"
-	"github.com/black/black/v13/testutil/tx"
-	"github.com/black/black/v13/utils"
-	"github.com/black/black/v13/x/claims/types"
-	inflationtypes "github.com/black/black/v13/x/inflation/types"
+	"github.com/xnephilim/black/v13/crypto/ethsecp256k1"
+	"github.com/xnephilim/black/v13/testutil"
+	"github.com/xnephilim/black/v13/testutil/tx"
+	"github.com/xnephilim/black/v13/utils"
+	"github.com/xnephilim/black/v13/x/claims/types"
+	inflationtypes "github.com/xnephilim/black/v13/x/inflation/types"
 )
 
 var _ = Describe("Claiming", Ordered, func() {

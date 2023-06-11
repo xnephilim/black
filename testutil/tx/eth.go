@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 package tx
 
 import (
@@ -18,10 +18,10 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 
-	"github.com/black/black/v13/app"
-	"github.com/black/black/v13/server/config"
-	"github.com/black/black/v13/utils"
-	evmtypes "github.com/black/black/v13/x/evm/types"
+	"github.com/xnephilim/black/v13/app"
+	"github.com/xnephilim/black/v13/server/config"
+	"github.com/xnephilim/black/v13/utils"
+	evmtypes "github.com/xnephilim/black/v13/x/evm/types"
 )
 
 // PrepareEthTx creates an ethereum tx and signs it with the provided messages and private key.

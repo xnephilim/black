@@ -4,9 +4,9 @@ ARG BRANCH_NAME
 
 WORKDIR /go/src/github.com/black/
 
-RUN git clone "https://github.com/black/black.git"
+RUN git clone "https://github.com/xnephilim/black.git"
 
-WORKDIR /go/src/github.com/black/black
+WORKDIR /go/src/github.com/xnephilim/black
 
 RUN apt-get update -y
 
@@ -21,14 +21,14 @@ RUN apt-get update \
 && apt-get clean \
 && rm -rf /var/lib/apt/lists/*
 
-WORKDIR /go/src/github.com/black/black
+WORKDIR /go/src/github.com/xnephilim/black
 
 COPY ./init-node.sh .
 
 # perms to make init-node.sh executable
 RUN chmod +x init-node.sh
 
-COPY --from=build-env /go/src/github.com/black/black/build/black /usr/bin/black
+COPY --from=build-env /go/src/github.com/xnephilim/black/build/black /usr/bin/black
 
 EXPOSE 26656 26657 1317 9090 8545 8546
 

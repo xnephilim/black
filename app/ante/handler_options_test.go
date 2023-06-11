@@ -1,12 +1,12 @@
 package ante_test
 
 import (
-	ethante "github.com/black/black/v13/app/ante/evm"
-	"github.com/black/black/v13/encoding"
-	"github.com/black/black/v13/types"
+	ethante "github.com/xnephilim/black/v13/app/ante/evm"
+	"github.com/xnephilim/black/v13/encoding"
+	"github.com/xnephilim/black/v13/types"
 
-	"github.com/black/black/v13/app"
-	"github.com/black/black/v13/app/ante"
+	"github.com/xnephilim/black/v13/app"
+	"github.com/xnephilim/black/v13/app/ante"
 )
 
 func (suite *AnteTestSuite) TestValidateHandlerOptions() {

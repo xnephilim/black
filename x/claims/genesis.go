@@ -10,8 +10,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/black/black/v13/x/claims/keeper"
-	"github.com/black/black/v13/x/claims/types"
+	"github.com/xnephilim/black/v13/x/claims/keeper"
+	"github.com/xnephilim/black/v13/x/claims/types"
 )
 
 // InitGenesis initializes the claim module's state from a provided genesis

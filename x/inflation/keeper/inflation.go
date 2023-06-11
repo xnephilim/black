@@ -1,16 +1,16 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package keeper
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	blacktypes "github.com/black/black/v13/types"
+	blacktypes "github.com/xnephilim/black/v13/types"
 
-	utils "github.com/black/black/v13/utils"
-	incentivestypes "github.com/black/black/v13/x/incentives/types"
-	"github.com/black/black/v13/x/inflation/types"
+	utils "github.com/xnephilim/black/v13/utils"
+	incentivestypes "github.com/xnephilim/black/v13/x/incentives/types"
+	"github.com/xnephilim/black/v13/x/inflation/types"
 )
 
 // 200M token at year 4 allocated to the team

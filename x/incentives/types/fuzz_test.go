@@ -5,8 +5,8 @@ package types_test
 import (
 	"testing"
 
-	utiltx "github.com/black/black/v13/testutil/tx"
-	"github.com/black/black/v13/x/incentives/types"
+	utiltx "github.com/xnephilim/black/v13/testutil/tx"
+	"github.com/xnephilim/black/v13/x/incentives/types"
 )
 
 func FuzzSplitGasMeterKey(f *testing.F) {

@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package keeper
 
@@ -14,7 +14,7 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	porttypes "github.com/cosmos/ibc-go/v6/modules/core/05-port/types"
 
-	"github.com/black/black/v13/x/claims/types"
+	"github.com/xnephilim/black/v13/x/claims/types"
 )
 
 // Keeper struct

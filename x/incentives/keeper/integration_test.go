@@ -12,10 +12,10 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	blacktypes "github.com/black/black/v13/types"
-	evmtypes "github.com/black/black/v13/x/evm/types"
+	blacktypes "github.com/xnephilim/black/v13/types"
+	evmtypes "github.com/xnephilim/black/v13/x/evm/types"
 
-	"github.com/black/black/v13/x/incentives/types"
+	"github.com/xnephilim/black/v13/x/incentives/types"
 )
 
 var _ = Describe("Performing EVM transactions", Ordered, func() {

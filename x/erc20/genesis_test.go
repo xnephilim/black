@@ -13,13 +13,13 @@ import (
 	tmversion "github.com/tendermint/tendermint/proto/tendermint/version"
 	"github.com/tendermint/tendermint/version"
 
-	utiltx "github.com/black/black/v13/testutil/tx"
-	"github.com/black/black/v13/utils"
-	feemarkettypes "github.com/black/black/v13/x/feemarket/types"
+	utiltx "github.com/xnephilim/black/v13/testutil/tx"
+	"github.com/xnephilim/black/v13/utils"
+	feemarkettypes "github.com/xnephilim/black/v13/x/feemarket/types"
 
-	"github.com/black/black/v13/app"
-	"github.com/black/black/v13/x/erc20"
-	"github.com/black/black/v13/x/erc20/types"
+	"github.com/xnephilim/black/v13/app"
+	"github.com/xnephilim/black/v13/x/erc20"
+	"github.com/xnephilim/black/v13/x/erc20/types"
 )
 
 type GenesisTestSuite struct {

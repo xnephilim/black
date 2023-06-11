@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 package tx
 
 import (
@@ -16,10 +16,10 @@ import (
 	"github.com/ethereum/go-ethereum/signer/core/apitypes"
 
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/black/black/v13/app"
-	cryptocodec "github.com/black/black/v13/crypto/codec"
-	"github.com/black/black/v13/ethereum/eip712"
-	"github.com/black/black/v13/types"
+	"github.com/xnephilim/black/v13/app"
+	cryptocodec "github.com/xnephilim/black/v13/crypto/codec"
+	"github.com/xnephilim/black/v13/ethereum/eip712"
+	"github.com/xnephilim/black/v13/types"
 )
 
 type EIP712TxArgs struct {

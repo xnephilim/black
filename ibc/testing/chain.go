@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package ibctesting
 
@@ -21,10 +21,10 @@ import (
 	ibcgotesting "github.com/cosmos/ibc-go/v6/testing"
 	"github.com/cosmos/ibc-go/v6/testing/mock"
 
-	"github.com/black/black/v13/crypto/ethsecp256k1"
-	blacktypes "github.com/black/black/v13/types"
-	"github.com/black/black/v13/utils"
-	evmtypes "github.com/black/black/v13/x/evm/types"
+	"github.com/xnephilim/black/v13/crypto/ethsecp256k1"
+	blacktypes "github.com/xnephilim/black/v13/types"
+	"github.com/xnephilim/black/v13/utils"
+	evmtypes "github.com/xnephilim/black/v13/x/evm/types"
 )
 
 // ChainIDPrefix defines the default chain ID prefix for Black test chains

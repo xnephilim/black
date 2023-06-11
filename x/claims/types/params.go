@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package types
 
@@ -11,7 +11,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	channeltypes "github.com/cosmos/ibc-go/v6/modules/core/04-channel/types"
 	host "github.com/cosmos/ibc-go/v6/modules/core/24-host"
-	"github.com/black/black/v13/utils"
+	"github.com/xnephilim/black/v13/utils"
 )
 
 var (

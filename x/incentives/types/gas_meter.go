@@ -1,11 +1,11 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package types
 
 import (
 	"github.com/ethereum/go-ethereum/common"
-	blacktypes "github.com/black/black/v13/types"
+	blacktypes "github.com/xnephilim/black/v13/types"
 )
 
 // NewGasMeter returns an instance of GasMeter

@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package erc20
 
@@ -21,9 +21,9 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/black/black/v13/x/erc20/client/cli"
-	"github.com/black/black/v13/x/erc20/keeper"
-	"github.com/black/black/v13/x/erc20/types"
+	"github.com/xnephilim/black/v13/x/erc20/client/cli"
+	"github.com/xnephilim/black/v13/x/erc20/keeper"
+	"github.com/xnephilim/black/v13/x/erc20/types"
 )
 
 // type check to ensure the interface is properly implemented

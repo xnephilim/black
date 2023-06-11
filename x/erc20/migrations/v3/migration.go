@@ -1,13 +1,13 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package v3
 
 import (
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	v3types "github.com/black/black/v13/x/erc20/migrations/v3/types"
-	"github.com/black/black/v13/x/erc20/types"
+	v3types "github.com/xnephilim/black/v13/x/erc20/migrations/v3/types"
+	"github.com/xnephilim/black/v13/x/erc20/types"
 )
 
 var isTrue = []byte{0x01}

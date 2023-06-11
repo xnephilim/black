@@ -6,7 +6,7 @@ package types
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/ethereum/go-ethereum/common"
-	blacktypes "github.com/black/black/v13/types"
+	blacktypes "github.com/xnephilim/black/v13/types"
 )
 
 // NewRevenue returns an instance of Revenue. If the provided withdrawer

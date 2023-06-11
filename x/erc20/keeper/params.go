@@ -1,11 +1,11 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package keeper
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/black/black/v13/x/erc20/types"
+	"github.com/xnephilim/black/v13/x/erc20/types"
 )
 
 var isTrue = []byte("0x01")

@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 package server
 
 import (
@@ -14,10 +14,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/server/types"
 	ethlog "github.com/ethereum/go-ethereum/log"
 	ethrpc "github.com/ethereum/go-ethereum/rpc"
-	"github.com/black/black/v13/rpc"
+	"github.com/xnephilim/black/v13/rpc"
 
-	"github.com/black/black/v13/server/config"
-	blacktypes "github.com/black/black/v13/types"
+	"github.com/xnephilim/black/v13/server/config"
+	blacktypes "github.com/xnephilim/black/v13/types"
 )
 
 // StartJSONRPC starts the JSON-RPC server

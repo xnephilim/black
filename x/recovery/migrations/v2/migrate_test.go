@@ -8,11 +8,11 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/testutil"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/black/black/v13/app"
-	"github.com/black/black/v13/encoding"
-	v2 "github.com/black/black/v13/x/recovery/migrations/v2"
-	v2types "github.com/black/black/v13/x/recovery/migrations/v2/types"
-	"github.com/black/black/v13/x/recovery/types"
+	"github.com/xnephilim/black/v13/app"
+	"github.com/xnephilim/black/v13/encoding"
+	v2 "github.com/xnephilim/black/v13/x/recovery/migrations/v2"
+	v2types "github.com/xnephilim/black/v13/x/recovery/migrations/v2/types"
+	"github.com/xnephilim/black/v13/x/recovery/types"
 	"github.com/stretchr/testify/require"
 )
 

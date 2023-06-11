@@ -23,9 +23,9 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/black/black/v13/x/revenue/v1/client/cli"
-	"github.com/black/black/v13/x/revenue/v1/keeper"
-	"github.com/black/black/v13/x/revenue/v1/types"
+	"github.com/xnephilim/black/v13/x/revenue/v1/client/cli"
+	"github.com/xnephilim/black/v13/x/revenue/v1/keeper"
+	"github.com/xnephilim/black/v13/x/revenue/v1/types"
 )
 
 // type check to ensure the interface is properly implemented

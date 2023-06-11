@@ -9,9 +9,9 @@ import (
 	"github.com/cosmos/ibc-go/v6/modules/apps/transfer/types"
 	channeltypes "github.com/cosmos/ibc-go/v6/modules/core/04-channel/types"
 	host "github.com/cosmos/ibc-go/v6/modules/core/24-host"
-	"github.com/black/black/v13/testutil"
-	erc20types "github.com/black/black/v13/x/erc20/types"
-	"github.com/black/black/v13/x/ibc/transfer/keeper"
+	"github.com/xnephilim/black/v13/testutil"
+	erc20types "github.com/xnephilim/black/v13/x/erc20/types"
+	"github.com/xnephilim/black/v13/x/ibc/transfer/keeper"
 	"github.com/stretchr/testify/mock"
 )
 

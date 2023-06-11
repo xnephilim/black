@@ -9,9 +9,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/genutil/client/cli"
 	"github.com/stretchr/testify/require"
 
-	"github.com/black/black/v13/app"
-	black "github.com/black/black/v13/cmd/black"
-	"github.com/black/black/v13/utils"
+	"github.com/xnephilim/black/v13/app"
+	black "github.com/xnephilim/black/v13/cmd/black"
+	"github.com/xnephilim/black/v13/utils"
 )
 
 func TestInitCmd(t *testing.T) {

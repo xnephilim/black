@@ -5,16 +5,16 @@ import (
 	"time"
 
 	vestingexported "github.com/cosmos/cosmos-sdk/x/auth/vesting/exported"
-	blacktypes "github.com/black/black/v13/types"
+	blacktypes "github.com/xnephilim/black/v13/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	sdkvesting "github.com/cosmos/cosmos-sdk/x/auth/vesting/types"
 
-	"github.com/black/black/v13/testutil"
-	utiltx "github.com/black/black/v13/testutil/tx"
-	"github.com/black/black/v13/x/vesting/types"
+	"github.com/xnephilim/black/v13/testutil"
+	utiltx "github.com/xnephilim/black/v13/testutil/tx"
+	"github.com/xnephilim/black/v13/x/vesting/types"
 )
 
 var (

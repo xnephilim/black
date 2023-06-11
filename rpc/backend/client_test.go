@@ -10,9 +10,9 @@ import (
 
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/black/black/v13/rpc/backend/mocks"
-	rpc "github.com/black/black/v13/rpc/types"
-	evmtypes "github.com/black/black/v13/x/evm/types"
+	"github.com/xnephilim/black/v13/rpc/backend/mocks"
+	rpc "github.com/xnephilim/black/v13/rpc/types"
+	evmtypes "github.com/xnephilim/black/v13/x/evm/types"
 	mock "github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"

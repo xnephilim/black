@@ -11,11 +11,11 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	"github.com/black/black/v13/crypto/ethsecp256k1"
-	"github.com/black/black/v13/testutil"
-	utiltx "github.com/black/black/v13/testutil/tx"
-	evmtypes "github.com/black/black/v13/x/evm/types"
-	"github.com/black/black/v13/x/revenue/v1/types"
+	"github.com/xnephilim/black/v13/crypto/ethsecp256k1"
+	"github.com/xnephilim/black/v13/testutil"
+	utiltx "github.com/xnephilim/black/v13/testutil/tx"
+	evmtypes "github.com/xnephilim/black/v13/x/evm/types"
+	"github.com/xnephilim/black/v13/x/revenue/v1/types"
 
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 )

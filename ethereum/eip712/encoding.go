@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 package eip712
 
 import (
@@ -13,7 +13,7 @@ import (
 	txTypes "github.com/cosmos/cosmos-sdk/types/tx"
 
 	apitypes "github.com/ethereum/go-ethereum/signer/core/apitypes"
-	blacktypes "github.com/black/black/v13/types"
+	blacktypes "github.com/xnephilim/black/v13/types"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 )

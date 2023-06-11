@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 package app
 
 import (
@@ -17,7 +17,7 @@ import (
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/black/black/v13/encoding"
+	"github.com/xnephilim/black/v13/encoding"
 	abci "github.com/tendermint/tendermint/abci/types"
 	"github.com/tendermint/tendermint/libs/log"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"

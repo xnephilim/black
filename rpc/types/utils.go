@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 package types
 
 import (
@@ -16,8 +16,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/client"
 	errortypes "github.com/cosmos/cosmos-sdk/types/errors"
 
-	evmtypes "github.com/black/black/v13/x/evm/types"
-	feemarkettypes "github.com/black/black/v13/x/feemarket/types"
+	evmtypes "github.com/xnephilim/black/v13/x/evm/types"
+	feemarkettypes "github.com/xnephilim/black/v13/x/feemarket/types"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"

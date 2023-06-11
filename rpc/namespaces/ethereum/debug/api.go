@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 package debug
 
 import (
@@ -16,7 +16,7 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	evmtypes "github.com/black/black/v13/x/evm/types"
+	evmtypes "github.com/xnephilim/black/v13/x/evm/types"
 
 	stderrors "github.com/pkg/errors"
 
@@ -26,8 +26,8 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/consensus/ethash"
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/black/black/v13/rpc/backend"
-	rpctypes "github.com/black/black/v13/rpc/types"
+	"github.com/xnephilim/black/v13/rpc/backend"
+	rpctypes "github.com/xnephilim/black/v13/rpc/types"
 	"github.com/tendermint/tendermint/libs/log"
 )
 

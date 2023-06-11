@@ -4,10 +4,10 @@ import (
 	sdkmath "cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	cosmosante "github.com/black/black/v13/app/ante/cosmos"
-	"github.com/black/black/v13/testutil"
-	testutiltx "github.com/black/black/v13/testutil/tx"
-	"github.com/black/black/v13/utils"
+	cosmosante "github.com/xnephilim/black/v13/app/ante/cosmos"
+	"github.com/xnephilim/black/v13/testutil"
+	testutiltx "github.com/xnephilim/black/v13/testutil/tx"
+	"github.com/xnephilim/black/v13/utils"
 )
 
 var execTypes = []struct {

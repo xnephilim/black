@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package app
 
@@ -9,8 +9,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 
-	v82 "github.com/black/black/v13/app/upgrades/v8_2"
-	"github.com/black/black/v13/utils"
+	v82 "github.com/xnephilim/black/v13/app/upgrades/v8_2"
+	"github.com/xnephilim/black/v13/utils"
 )
 
 // ScheduleForkUpgrade executes any necessary fork logic for based upon the current

@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package cli
 
@@ -12,7 +12,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/spf13/cobra"
 
-	"github.com/black/black/v13/x/incentives/types"
+	"github.com/xnephilim/black/v13/x/incentives/types"
 )
 
 // GetQueryCmd returns the parent command for all incentives CLI query commands.

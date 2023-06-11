@@ -19,8 +19,8 @@ import (
 	tmtypes "github.com/tendermint/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/black/black/v13/encoding"
-	"github.com/black/black/v13/utils"
+	"github.com/xnephilim/black/v13/encoding"
+	"github.com/xnephilim/black/v13/utils"
 )
 
 func TestBlackExport(t *testing.T) {

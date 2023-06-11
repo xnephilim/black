@@ -4,10 +4,10 @@ import (
 	"time"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	anteutils "github.com/black/black/v13/app/ante/utils"
-	"github.com/black/black/v13/testutil"
-	testutiltx "github.com/black/black/v13/testutil/tx"
-	"github.com/black/black/v13/utils"
+	anteutils "github.com/xnephilim/black/v13/app/ante/utils"
+	"github.com/xnephilim/black/v13/testutil"
+	testutiltx "github.com/xnephilim/black/v13/testutil/tx"
+	"github.com/xnephilim/black/v13/utils"
 )
 
 // TestClaimStakingRewardsIfNecessary tests the ClaimStakingRewardsIfNecessary function

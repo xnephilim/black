@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package keeper
 
@@ -10,7 +10,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 
-	"github.com/black/black/v13/x/recovery/types"
+	"github.com/xnephilim/black/v13/x/recovery/types"
 )
 
 // UpdateParams implements the gRPC MsgServer interface. When an UpdateParams

@@ -17,8 +17,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/core/types"
 	ethparams "github.com/ethereum/go-ethereum/params"
-	utiltx "github.com/black/black/v13/testutil/tx"
-	evmtypes "github.com/black/black/v13/x/evm/types"
+	utiltx "github.com/xnephilim/black/v13/testutil/tx"
+	evmtypes "github.com/xnephilim/black/v13/x/evm/types"
 )
 
 func (suite *AnteTestSuite) TestAnteHandler() {

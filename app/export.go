@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package app
 
@@ -16,7 +16,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/staking"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/black/black/v13/encoding"
+	"github.com/xnephilim/black/v13/encoding"
 )
 
 // NewDefaultGenesisState generates the default state for the application.

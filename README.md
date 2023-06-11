@@ -8,17 +8,17 @@ parent:
 </div>
 
 <div align="center">
-  <a href="https://github.com/black/black/releases/latest">
+  <a href="https://github.com/xnephilim/black/releases/latest">
     <img alt="Version" src="https://img.shields.io/github/tag/tharsis/black.svg" />
   </a>
-  <a href="https://github.com/black/black/blob/main/LICENSE">
+  <a href="https://github.com/xnephilim/black/blob/main/LICENSE">
     <img alt="License: Apache-2.0" src="https://img.shields.io/github/license/tharsis/black.svg" />
   </a>
-  <a href="https://pkg.go.dev/github.com/black/black">
-    <img alt="GoDoc" src="https://godoc.org/github.com/black/black?status.svg" />
+  <a href="https://pkg.go.dev/github.com/xnephilim/black">
+    <img alt="GoDoc" src="https://godoc.org/github.com/xnephilim/black?status.svg" />
   </a>
-  <a href="https://goreportcard.com/report/github.com/black/black">
-    <img alt="Go report card" src="https://goreportcard.com/badge/github.com/black/black"/>
+  <a href="https://goreportcard.com/report/github.com/xnephilim/black">
+    <img alt="Go report card" src="https://goreportcard.com/badge/github.com/xnephilim/black"/>
   </a>
   <a href="https://bestpractices.coreinfrastructure.org/projects/5018">
     <img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/tharsis/black">
@@ -28,11 +28,11 @@ parent:
   <a href="https://discord.gg/black">
     <img alt="Discord" src="https://img.shields.io/discord/809048090249134080.svg" />
   </a>
-  <a href="https://github.com/black/black/actions?query=branch%3Amain+workflow%3ALint">
-    <img alt="Lint Status" src="https://github.com/black/black/actions/workflows/lint.yml/badge.svg?branch=main" />
+  <a href="https://github.com/xnephilim/black/actions?query=branch%3Amain+workflow%3ALint">
+    <img alt="Lint Status" src="https://github.com/xnephilim/black/actions/workflows/lint.yml/badge.svg?branch=main" />
   </a>
-  <a href="https://codecov.io/gh/black/black">
-    <img alt="Code Coverage" src="https://codecov.io/gh/black/black/branch/main/graph/badge.svg" />
+  <a href="https://codecov.io/gh/xnephilim/black">
+    <img alt="Code Coverage" src="https://codecov.io/gh/xnephilim/black/branch/main/graph/badge.svg" />
   </a>
   <a href="https://twitter.com/BlackOrg">
     <img alt="Twitter Follow Black" src="https://img.shields.io/twitter/follow/BlackOrg"/>
@@ -65,7 +65,7 @@ Once the dependencies are installed, run:
 make install
 ```
 
-Or check out the latest [release](https://github.com/black/black/releases).
+Or check out the latest [release](https://github.com/xnephilim/black/releases).
 
 ## Community
 
@@ -79,7 +79,7 @@ The following chat channels and forums are great spots to ask questions about Bl
 
 Looking for a good place to start contributing?
 Check out some
-[`good first issues`](https://github.com/black/black/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).
+[`good first issues`](https://github.com/xnephilim/black/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).
 
 For additional instructions, standards and style guides, please refer to the [Contributing](./CONTRIBUTING.md) document.
 
@@ -109,7 +109,7 @@ The following header including a license identifier in SPDX short form has been 
 
 ```go
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 ```
 
 Exempted files contain the following SPDX ID:

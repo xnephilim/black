@@ -14,9 +14,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/tx"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	blacktypes "github.com/black/black/v13/types"
+	blacktypes "github.com/xnephilim/black/v13/types"
 
-	"github.com/black/black/v13/x/revenue/v1/types"
+	"github.com/xnephilim/black/v13/x/revenue/v1/types"
 )
 
 // NewTxCmd returns a root CLI command handler for certain modules/revenue

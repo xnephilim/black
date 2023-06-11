@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package keeper
 
@@ -11,7 +11,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/black/black/v13/x/epochs/types"
+	"github.com/xnephilim/black/v13/x/epochs/types"
 )
 
 // Keeper of this module maintains collections of epochs and hooks.

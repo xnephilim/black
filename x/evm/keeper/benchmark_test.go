@@ -12,8 +12,8 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	blacktypes "github.com/black/black/v13/types"
-	"github.com/black/black/v13/x/evm/types"
+	blacktypes "github.com/xnephilim/black/v13/types"
+	"github.com/xnephilim/black/v13/x/evm/types"
 )
 
 func SetupContract(b *testing.B) (*KeeperTestSuite, common.Address) {

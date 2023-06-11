@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package v81
 
@@ -11,5 +11,5 @@ const (
 	// TestnetUpgradeHeight defines the Black testnet block height on which the upgrade will take place
 	TestnetUpgradeHeight = 5_280_000
 	// UpgradeInfo defines the binaries that will be used for the upgrade
-	UpgradeInfo = `'{"binaries":{"darwin/arm64":"https://github.com/black/black/releases/download/v8.1.0/black_8.1.0_Darwin_arm64.tar.gz","darwin/x86_64":"https://github.com/black/black/releases/download/v8.1.0/black_8.1.0_Darwin_x86_64.tar.gz","linux/arm64":"https://github.com/black/black/releases/download/v8.1.0/black_8.1.0_Linux_arm64.tar.gz","linux/amd64":"https://github.com/black/black/releases/download/v8.1.0/black_8.1.0_Linux_x86_64.tar.gz","windows/x86_64":"https://github.com/black/black/releases/download/v8.1.0/black_8.1.0_Windows_x86_64.zip"}}'`
+	UpgradeInfo = `'{"binaries":{"darwin/arm64":"https://github.com/xnephilim/black/releases/download/v8.1.0/black_8.1.0_Darwin_arm64.tar.gz","darwin/x86_64":"https://github.com/xnephilim/black/releases/download/v8.1.0/black_8.1.0_Darwin_x86_64.tar.gz","linux/arm64":"https://github.com/xnephilim/black/releases/download/v8.1.0/black_8.1.0_Linux_arm64.tar.gz","linux/amd64":"https://github.com/xnephilim/black/releases/download/v8.1.0/black_8.1.0_Linux_x86_64.tar.gz","windows/x86_64":"https://github.com/xnephilim/black/releases/download/v8.1.0/black_8.1.0_Windows_x86_64.zip"}}'`
 )

@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 package evm
 
 import (
@@ -7,7 +7,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	errortypes "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/black/black/v13/x/evm/types"
+	"github.com/xnephilim/black/v13/x/evm/types"
 )
 
 // NewHandler returns a handler for Ethermint type messages.

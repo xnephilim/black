@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 package indexer
 
 import (
@@ -11,14 +11,14 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authante "github.com/cosmos/cosmos-sdk/x/auth/ante"
 	"github.com/ethereum/go-ethereum/common"
-	rpctypes "github.com/black/black/v13/rpc/types"
+	rpctypes "github.com/xnephilim/black/v13/rpc/types"
 	abci "github.com/tendermint/tendermint/abci/types"
 	"github.com/tendermint/tendermint/libs/log"
 	tmtypes "github.com/tendermint/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	blacktypes "github.com/black/black/v13/types"
-	evmtypes "github.com/black/black/v13/x/evm/types"
+	blacktypes "github.com/xnephilim/black/v13/types"
+	evmtypes "github.com/xnephilim/black/v13/x/evm/types"
 )
 
 const (

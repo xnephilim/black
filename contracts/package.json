@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/black/black.git"
+    "url": "git+https://github.com/xnephilim/black.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/black/black/issues"
+    "url": "https://github.com/xnephilim/black/issues"
   },
-  "homepage": "https://github.com/black/black#readme"
+  "homepage": "https://github.com/xnephilim/black#readme"
 }

@@ -6,8 +6,8 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/suite"
 
-	utiltx "github.com/black/black/v13/testutil/tx"
-	"github.com/black/black/v13/x/incentives/types"
+	utiltx "github.com/xnephilim/black/v13/testutil/tx"
+	"github.com/xnephilim/black/v13/x/incentives/types"
 )
 
 type GasMeterTestSuite struct {

@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package vesting
 
@@ -21,9 +21,9 @@ import (
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
 	stakingkeeper "github.com/cosmos/cosmos-sdk/x/staking/keeper"
 
-	"github.com/black/black/v13/x/vesting/client/cli"
-	"github.com/black/black/v13/x/vesting/keeper"
-	"github.com/black/black/v13/x/vesting/types"
+	"github.com/xnephilim/black/v13/x/vesting/client/cli"
+	"github.com/xnephilim/black/v13/x/vesting/keeper"
+	"github.com/xnephilim/black/v13/x/vesting/types"
 )
 
 var (

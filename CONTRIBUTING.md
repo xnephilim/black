@@ -29,8 +29,8 @@ Contributing to this repo can mean many things such as participating in discussi
 To ensure a smooth workflow for all contributors,
 the following general procedure for contributing has been established:
 
-1. Either [open](https://github.com/black/black/issues/new/choose)
-   or [find](https://github.com/black/black/issues) an issue you have identified and would like to contribute to
+1. Either [open](https://github.com/xnephilim/black/issues/new/choose)
+   or [find](https://github.com/xnephilim/black/issues) an issue you have identified and would like to contribute to
    resolving.
 2. Participate in thoughtful discussion on that issue.
 3. If you would like to contribute:
@@ -68,12 +68,12 @@ before an adequate design discussion has taken place in a GitHub issue,
 that PR runs a high likelihood of being rejected.
 
 Looking for a good place to start contributing?
-Check out our [good first issues](https://github.com/black/black/issues?q=label%3A%22good+first+issue%22).
+Check out our [good first issues](https://github.com/xnephilim/black/issues?q=label%3A%22good+first+issue%22).
 
 ## <span id="adr">Architecture Decision Records (ADR)</span>
 
 When proposing an architecture decision for Black,
-please create an [ADR](https://github.com/black/black/blob/main/docs/architecture/README.md)
+please create an [ADR](https://github.com/xnephilim/black/blob/main/docs/architecture/README.md)
 so further discussions can be made.
 We are following this process so all involved parties are in agreement
 before any party begins coding the proposed implementation.
@@ -83,15 +83,15 @@ refer to [Tendermint ADRs](https://github.com/tendermint/tendermint/tree/master/
 ## <span id="forking">Forking</span>
 
 Please note that Go requires code to live under absolute paths, which complicates forking.
-While my fork lives at `https://github.com/black/black`,
-the code should never exist at `$GOPATH/src/github.com/black/black`.
-Instead, we use `git remote` to add the fork as a new remote for the original repo,`$GOPATH/src/github.com/black/black`,
+While my fork lives at `https://github.com/xnephilim/black`,
+the code should never exist at `$GOPATH/src/github.com/xnephilim/black`.
+Instead, we use `git remote` to add the fork as a new remote for the original repo,`$GOPATH/src/github.com/xnephilim/black`,
 and do all the work there.
 
 For instance, to create a fork and work on a branch of it, you would:
 
 1. Create the fork on github, using the fork button.
-2. Go to the original repo checked out locally. (i.e. `$GOPATH/src/github.com/black/black`)
+2. Go to the original repo checked out locally. (i.e. `$GOPATH/src/github.com/xnephilim/black`)
 3. `git remote rename origin upstream`
 4. `git remote add origin git@github.com:tharsis/black.git`
 
@@ -179,7 +179,7 @@ For example, in vscode your `.vscode/settings.json` should look like:
 2. `development` must never
    fail `make lint, make test, make test-race, make test-rpc, make test-import`
 3. No `--force` onto `development` (except when reverting a broken commit, which should seldom happen).
-4. Create your feature branch from `development` either on `github.com/black/black`, or your fork (
+4. Create your feature branch from `development` either on `github.com/xnephilim/black`, or your fork (
    using `git remote add origin`).
 5. Before submitting a pull request, begin `git rebase` on top of `development`.
 

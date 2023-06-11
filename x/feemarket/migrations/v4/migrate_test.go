@@ -12,7 +12,7 @@
 // GNU Lesser General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
-// along with the Black packages. If not, see https://github.com/black/black/blob/main/LICENSE
+// along with the Black packages. If not, see https://github.com/xnephilim/black/blob/main/LICENSE
 package v4_test
 
 import (
@@ -20,10 +20,10 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/testutil"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/black/black/v13/app"
-	"github.com/black/black/v13/encoding"
-	v4 "github.com/black/black/v13/x/feemarket/migrations/v4"
-	"github.com/black/black/v13/x/feemarket/types"
+	"github.com/xnephilim/black/v13/app"
+	"github.com/xnephilim/black/v13/encoding"
+	v4 "github.com/xnephilim/black/v13/x/feemarket/migrations/v4"
+	"github.com/xnephilim/black/v13/x/feemarket/types"
 	"github.com/stretchr/testify/require"
 )
 

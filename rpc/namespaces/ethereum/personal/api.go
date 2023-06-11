@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 package personal
 
 import (
@@ -8,10 +8,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/black/black/v13/rpc/backend"
+	"github.com/xnephilim/black/v13/rpc/backend"
 
-	"github.com/black/black/v13/crypto/hd"
-	"github.com/black/black/v13/types"
+	"github.com/xnephilim/black/v13/crypto/hd"
+	"github.com/xnephilim/black/v13/types"
 
 	"github.com/tendermint/tendermint/libs/log"
 
@@ -23,7 +23,7 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	evmtypes "github.com/black/black/v13/x/evm/types"
+	evmtypes "github.com/xnephilim/black/v13/x/evm/types"
 )
 
 // PrivateAccountAPI is the personal_ prefixed set of APIs in the Web3 JSON-RPC spec.

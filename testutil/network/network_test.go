@@ -11,10 +11,10 @@ import (
 	"github.com/stretchr/testify/suite"
 
 	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/black/black/v13/server/config"
-	"github.com/black/black/v13/testutil/network"
+	"github.com/xnephilim/black/v13/server/config"
+	"github.com/xnephilim/black/v13/testutil/network"
 
-	blacknetwork "github.com/black/black/v13/testutil/network"
+	blacknetwork "github.com/xnephilim/black/v13/testutil/network"
 )
 
 type IntegrationTestSuite struct {

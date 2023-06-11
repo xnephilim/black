@@ -9,11 +9,11 @@ import (
 	distrtypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
-	testutil "github.com/black/black/v13/testutil"
-	utiltx "github.com/black/black/v13/testutil/tx"
-	blacktypes "github.com/black/black/v13/types"
-	"github.com/black/black/v13/x/claims/types"
-	vestingtypes "github.com/black/black/v13/x/vesting/types"
+	testutil "github.com/xnephilim/black/v13/testutil"
+	utiltx "github.com/xnephilim/black/v13/testutil/tx"
+	blacktypes "github.com/xnephilim/black/v13/types"
+	"github.com/xnephilim/black/v13/x/claims/types"
+	vestingtypes "github.com/xnephilim/black/v13/x/vesting/types"
 )
 
 func (suite *KeeperTestSuite) TestEndBlock() {

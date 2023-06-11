@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/black/black/v13/x/epochs"
-	"github.com/black/black/v13/x/epochs/types"
+	"github.com/xnephilim/black/v13/x/epochs"
+	"github.com/xnephilim/black/v13/x/epochs/types"
 )
 
 func (suite *KeeperTestSuite) TestEpochInfoChangesBeginBlockerAndInitGenesis() {

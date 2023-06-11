@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 package cosmos
 
 import (
@@ -19,11 +19,11 @@ import (
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/crypto/secp256k1"
 	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	"github.com/black/black/v13/crypto/ethsecp256k1"
-	"github.com/black/black/v13/ethereum/eip712"
-	"github.com/black/black/v13/types"
+	"github.com/xnephilim/black/v13/crypto/ethsecp256k1"
+	"github.com/xnephilim/black/v13/ethereum/eip712"
+	"github.com/xnephilim/black/v13/types"
 
-	evmtypes "github.com/black/black/v13/x/evm/types"
+	evmtypes "github.com/xnephilim/black/v13/x/evm/types"
 )
 
 var blackCodec codec.ProtoCodecMarshaler

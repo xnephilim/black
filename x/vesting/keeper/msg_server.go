@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package keeper
 
@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	blacktypes "github.com/black/black/v13/types"
+	blacktypes "github.com/xnephilim/black/v13/types"
 
 	"github.com/armon/go-metrics"
 
@@ -20,7 +20,7 @@ import (
 	vestingexported "github.com/cosmos/cosmos-sdk/x/auth/vesting/exported"
 	sdkvesting "github.com/cosmos/cosmos-sdk/x/auth/vesting/types"
 
-	"github.com/black/black/v13/x/vesting/types"
+	"github.com/xnephilim/black/v13/x/vesting/types"
 )
 
 var _ types.MsgServer = &Keeper{}

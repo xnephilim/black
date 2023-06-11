@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 package client
 
 import (
@@ -12,8 +12,8 @@ import (
 	"github.com/tendermint/tendermint/libs/cli"
 
 	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	clientkeys "github.com/black/black/v13/client/keys"
-	"github.com/black/black/v13/crypto/hd"
+	clientkeys "github.com/xnephilim/black/v13/client/keys"
+	"github.com/xnephilim/black/v13/crypto/hd"
 )
 
 // KeyCommands registers a sub-tree of commands to interact with

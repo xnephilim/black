@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 package feemarket
 
 import (
@@ -21,9 +21,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 
-	"github.com/black/black/v13/x/feemarket/client/cli"
-	"github.com/black/black/v13/x/feemarket/keeper"
-	"github.com/black/black/v13/x/feemarket/types"
+	"github.com/xnephilim/black/v13/x/feemarket/client/cli"
+	"github.com/xnephilim/black/v13/x/feemarket/keeper"
+	"github.com/xnephilim/black/v13/x/feemarket/types"
 )
 
 var (

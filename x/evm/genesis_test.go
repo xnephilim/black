@@ -6,11 +6,11 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/black/black/v13/crypto/ethsecp256k1"
-	blacktypes "github.com/black/black/v13/types"
-	"github.com/black/black/v13/x/evm"
-	"github.com/black/black/v13/x/evm/statedb"
-	"github.com/black/black/v13/x/evm/types"
+	"github.com/xnephilim/black/v13/crypto/ethsecp256k1"
+	blacktypes "github.com/xnephilim/black/v13/types"
+	"github.com/xnephilim/black/v13/x/evm"
+	"github.com/xnephilim/black/v13/x/evm/statedb"
+	"github.com/xnephilim/black/v13/x/evm/types"
 )
 
 func (suite *EvmTestSuite) TestInitGenesis() {

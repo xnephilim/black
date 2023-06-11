@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 package keeper
 
 import (
@@ -18,9 +18,9 @@ import (
 	"github.com/ethereum/go-ethereum/params"
 	"github.com/tendermint/tendermint/libs/log"
 
-	blacktypes "github.com/black/black/v13/types"
-	"github.com/black/black/v13/x/evm/statedb"
-	"github.com/black/black/v13/x/evm/types"
+	blacktypes "github.com/xnephilim/black/v13/types"
+	"github.com/xnephilim/black/v13/x/evm/statedb"
+	"github.com/xnephilim/black/v13/x/evm/types"
 )
 
 // Keeper grants access to the EVM module state and implements the go-ethereum StateDB interface.

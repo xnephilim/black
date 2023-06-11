@@ -6,7 +6,7 @@ import "cosmos_proto/cosmos.proto";
 import "black/recovery/v1/genesis.proto";
 import "gogoproto/gogo.proto";
 
-option go_package = "github.com/black/black/v13/x/recovery/types";
+option go_package = "github.com/xnephilim/black/v13/x/recovery/types";
 
 // Msg defines the recovery Msg service.
 service Msg {

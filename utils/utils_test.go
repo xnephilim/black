@@ -12,7 +12,7 @@ import (
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/black/black/v13/crypto/ethsecp256k1"
+	"github.com/xnephilim/black/v13/crypto/ethsecp256k1"
 )
 
 func init() {

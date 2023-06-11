@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 package client
 
 // DONTCOVER
@@ -40,13 +40,13 @@ import (
 	mintypes "github.com/cosmos/cosmos-sdk/x/mint/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/black/black/v13/crypto/hd"
-	"github.com/black/black/v13/server/config"
-	srvflags "github.com/black/black/v13/server/flags"
-	blacktypes "github.com/black/black/v13/types"
-	evmtypes "github.com/black/black/v13/x/evm/types"
+	"github.com/xnephilim/black/v13/crypto/hd"
+	"github.com/xnephilim/black/v13/server/config"
+	srvflags "github.com/xnephilim/black/v13/server/flags"
+	blacktypes "github.com/xnephilim/black/v13/types"
+	evmtypes "github.com/xnephilim/black/v13/x/evm/types"
 
-	"github.com/black/black/v13/testutil/network"
+	"github.com/xnephilim/black/v13/testutil/network"
 )
 
 var (

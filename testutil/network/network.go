@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package network
 
@@ -51,13 +51,13 @@ import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	"github.com/cosmos/cosmos-sdk/x/genutil"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
-	"github.com/black/black/v13/app"
-	"github.com/black/black/v13/crypto/hd"
+	"github.com/xnephilim/black/v13/app"
+	"github.com/xnephilim/black/v13/crypto/hd"
 
-	"github.com/black/black/v13/encoding"
-	"github.com/black/black/v13/server/config"
-	blacktypes "github.com/black/black/v13/types"
-	evmtypes "github.com/black/black/v13/x/evm/types"
+	"github.com/xnephilim/black/v13/encoding"
+	"github.com/xnephilim/black/v13/server/config"
+	blacktypes "github.com/xnephilim/black/v13/types"
+	evmtypes "github.com/xnephilim/black/v13/x/evm/types"
 )
 
 // package-wide network lock to only allow one test network at a time

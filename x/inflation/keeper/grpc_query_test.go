@@ -6,8 +6,8 @@ import (
 	"cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	blacktypes "github.com/black/black/v13/types"
-	"github.com/black/black/v13/x/inflation/types"
+	blacktypes "github.com/xnephilim/black/v13/types"
+	"github.com/xnephilim/black/v13/x/inflation/types"
 )
 
 func (suite *KeeperTestSuite) TestPeriod() { //nolint:dupl

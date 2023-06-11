@@ -6,7 +6,7 @@ RUN apt-get update && apt-get upgrade -y && \
     apt-get install -y $PACKAGES
 
 # Set working directory for the build
-WORKDIR /go/src/github.com/black/black
+WORKDIR /go/src/github.com/xnephilim/black
 
 # Add source files
 COPY . .
@@ -22,8 +22,8 @@ WORKDIR /
 RUN apt-get update
 
 # Copy over binaries from the build-env
-COPY --from=build-env /go/src/github.com/black/black/build/black /
-COPY --from=build-env /go/src/github.com/black/black/scripts/start-docker.sh /
+COPY --from=build-env /go/src/github.com/xnephilim/black/build/black /
+COPY --from=build-env /go/src/github.com/xnephilim/black/scripts/start-docker.sh /
 
 EXPOSE 26656 26657 1317 9090 8545 8546
 

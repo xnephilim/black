@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 
 package types
 
@@ -9,7 +9,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	govv1beta1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
-	blacktypes "github.com/black/black/v13/types"
+	blacktypes "github.com/xnephilim/black/v13/types"
 )
 
 // constants

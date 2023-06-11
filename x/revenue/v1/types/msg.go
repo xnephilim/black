@@ -8,7 +8,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	errortypes "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/ethereum/go-ethereum/common"
-	blacktypes "github.com/black/black/v13/types"
+	blacktypes "github.com/xnephilim/black/v13/types"
 )
 
 var (

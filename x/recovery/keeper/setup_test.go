@@ -9,19 +9,19 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	ibctesting "github.com/black/black/v13/ibc/testing"
-	"github.com/black/black/v13/testutil"
-	utiltx "github.com/black/black/v13/testutil/tx"
-	"github.com/black/black/v13/utils"
-	feemarkettypes "github.com/black/black/v13/x/feemarket/types"
+	ibctesting "github.com/xnephilim/black/v13/ibc/testing"
+	"github.com/xnephilim/black/v13/testutil"
+	utiltx "github.com/xnephilim/black/v13/testutil/tx"
+	"github.com/xnephilim/black/v13/utils"
+	feemarkettypes "github.com/xnephilim/black/v13/x/feemarket/types"
 
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	ibcgotesting "github.com/cosmos/ibc-go/v6/testing"
 
-	"github.com/black/black/v13/app"
-	claimstypes "github.com/black/black/v13/x/claims/types"
-	"github.com/black/black/v13/x/recovery/types"
+	"github.com/xnephilim/black/v13/app"
+	claimstypes "github.com/xnephilim/black/v13/x/claims/types"
+	"github.com/xnephilim/black/v13/x/recovery/types"
 )
 
 var (

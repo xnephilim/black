@@ -1,10 +1,10 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 package miner
 
 import (
 	"github.com/cosmos/cosmos-sdk/server"
-	"github.com/black/black/v13/rpc/backend"
+	"github.com/xnephilim/black/v13/rpc/backend"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"

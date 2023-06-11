@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Black)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/xnephilim/black/blob/main/LICENSE)
 package debug
 
 import (
@@ -10,8 +10,8 @@ import (
 	"strings"
 
 	authclient "github.com/cosmos/cosmos-sdk/x/auth/client"
-	"github.com/black/black/v13/ethereum/eip712"
-	black "github.com/black/black/v13/types"
+	"github.com/xnephilim/black/v13/ethereum/eip712"
+	black "github.com/xnephilim/black/v13/types"
 	"github.com/pkg/errors"
 
 	"github.com/spf13/cobra"
