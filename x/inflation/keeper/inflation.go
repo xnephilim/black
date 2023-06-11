@@ -1,20 +1,20 @@
-// Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// Copyright Tharsis Labs Ltd.(Black)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
 
 package keeper
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	evmostypes "github.com/evmos/evmos/v13/types"
+	blacktypes "github.com/black/black/v13/types"
 
-	utils "github.com/evmos/evmos/v13/utils"
-	incentivestypes "github.com/evmos/evmos/v13/x/incentives/types"
-	"github.com/evmos/evmos/v13/x/inflation/types"
+	utils "github.com/black/black/v13/utils"
+	incentivestypes "github.com/black/black/v13/x/incentives/types"
+	"github.com/black/black/v13/x/inflation/types"
 )
 
 // 200M token at year 4 allocated to the team
-var teamAlloc = sdk.NewInt(200_000_000).Mul(evmostypes.PowerReduction)
+var teamAlloc = sdk.NewInt(200_000_000).Mul(blacktypes.PowerReduction)
 
 // MintAndAllocateInflation performs inflation minting and allocation
 func (k Keeper) MintAndAllocateInflation(

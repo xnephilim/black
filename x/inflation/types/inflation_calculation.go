@@ -1,12 +1,12 @@
-// Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// Copyright Tharsis Labs Ltd.(Black)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
 
 package types
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	evmostypes "github.com/evmos/evmos/v13/types"
+	blacktypes "github.com/black/black/v13/types"
 )
 
 // CalculateEpochProvisions returns mint provision per epoch
@@ -42,9 +42,9 @@ func CalculateEpochMintProvision(
 	// epochProvision = periodProvision / epochsPerPeriod
 	epochProvision := periodProvision.Quo(sdk.NewDec(epochsPerPeriod))
 
-	// Multiply epochMintProvision with power reduction (10^18 for evmos) as the
-	// calculation is based on `evmos` and the issued tokens need to be given in
-	// `aevmos`
-	epochProvision = epochProvision.Mul(sdk.NewDecFromInt(evmostypes.PowerReduction))
+	// Multiply epochMintProvision with power reduction (10^18 for black) as the
+	// calculation is based on `black` and the issued tokens need to be given in
+	// `ablack`
+	epochProvision = epochProvision.Mul(sdk.NewDecFromInt(blacktypes.PowerReduction))
 	return epochProvision
 }

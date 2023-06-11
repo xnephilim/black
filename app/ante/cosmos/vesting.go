@@ -1,5 +1,5 @@
-// Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// Copyright Tharsis Labs Ltd.(Black)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
 package cosmos
 
 import (
@@ -9,8 +9,8 @@ import (
 	errortypes "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/cosmos/cosmos-sdk/x/authz"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
-	evmtypes "github.com/evmos/evmos/v13/x/evm/types"
-	vestingtypes "github.com/evmos/evmos/v13/x/vesting/types"
+	evmtypes "github.com/black/black/v13/x/evm/types"
+	vestingtypes "github.com/black/black/v13/x/vesting/types"
 )
 
 // TODO: remove once Cosmos SDK is upgraded to v0.46

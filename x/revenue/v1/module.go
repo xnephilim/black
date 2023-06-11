@@ -1,4 +1,4 @@
-// Copyright Tharsis Labs Ltd.(Evmos)
+// Copyright Tharsis Labs Ltd.(Black)
 // SPDX-License-Identifier:LGPL-3.0-only
 
 package revenue
@@ -23,9 +23,9 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/evmos/evmos/v13/x/revenue/v1/client/cli"
-	"github.com/evmos/evmos/v13/x/revenue/v1/keeper"
-	"github.com/evmos/evmos/v13/x/revenue/v1/types"
+	"github.com/black/black/v13/x/revenue/v1/client/cli"
+	"github.com/black/black/v13/x/revenue/v1/keeper"
+	"github.com/black/black/v13/x/revenue/v1/types"
 )
 
 // type check to ensure the interface is properly implemented

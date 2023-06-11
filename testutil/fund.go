@@ -1,13 +1,13 @@
-// Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// Copyright Tharsis Labs Ltd.(Black)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
 
 package testutil
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
-	"github.com/evmos/evmos/v13/utils"
-	inflationtypes "github.com/evmos/evmos/v13/x/inflation/types"
+	"github.com/black/black/v13/utils"
+	inflationtypes "github.com/black/black/v13/x/inflation/types"
 )
 
 // FundAccount is a utility function that funds an account by minting and
@@ -21,7 +21,7 @@ func FundAccount(ctx sdk.Context, bankKeeper bankkeeper.Keeper, addr sdk.AccAddr
 }
 
 // FundAccountWithBaseDenom is a utility function that uses the FundAccount function
-// to fund an account with the default Evmos denomination.
+// to fund an account with the default Black denomination.
 func FundAccountWithBaseDenom(ctx sdk.Context, bankKeeper bankkeeper.Keeper, addr sdk.AccAddress, amount int64) error {
 	coins := sdk.NewCoins(
 		sdk.NewCoin(utils.BaseDenom, sdk.NewInt(amount)),

@@ -11,8 +11,8 @@ import (
 	authzkeeper "github.com/cosmos/cosmos-sdk/x/authz/keeper"
 	distributionkeeper "github.com/cosmos/cosmos-sdk/x/distribution/keeper"
 	stakingkeeper "github.com/cosmos/cosmos-sdk/x/staking/keeper"
-	distprecompile "github.com/evmos/precompiles/precompiles/distribution"
-	stakingprecompile "github.com/evmos/precompiles/precompiles/staking"
+	distprecompile "github.com/black/precompiles/precompiles/distribution"
+	stakingprecompile "github.com/black/precompiles/precompiles/staking"
 )
 
 // AvailablePrecompiles returns the list of all available precompiled contracts.

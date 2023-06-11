@@ -1,5 +1,5 @@
-// Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// Copyright Tharsis Labs Ltd.(Black)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
 
 package types
 
@@ -9,7 +9,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	govv1beta1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
-	evmostypes "github.com/evmos/evmos/v13/types"
+	blacktypes "github.com/black/black/v13/types"
 )
 
 // constants
@@ -56,7 +56,7 @@ func (*RegisterIncentiveProposal) ProposalType() string {
 
 // ValidateBasic performs a stateless check of the proposal fields
 func (rip *RegisterIncentiveProposal) ValidateBasic() error {
-	if err := evmostypes.ValidateAddress(rip.Contract); err != nil {
+	if err := blacktypes.ValidateAddress(rip.Contract); err != nil {
 		return err
 	}
 
@@ -123,7 +123,7 @@ func (*CancelIncentiveProposal) ProposalType() string {
 
 // ValidateBasic performs a stateless check of the proposal fields
 func (rip *CancelIncentiveProposal) ValidateBasic() error {
-	if err := evmostypes.ValidateAddress(rip.Contract); err != nil {
+	if err := blacktypes.ValidateAddress(rip.Contract); err != nil {
 		return err
 	}
 

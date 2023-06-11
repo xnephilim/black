@@ -1,5 +1,5 @@
-// Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// Copyright Tharsis Labs Ltd.(Black)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
 package backend
 
 import (
@@ -15,8 +15,8 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
-	rpctypes "github.com/evmos/evmos/v13/rpc/types"
-	evmtypes "github.com/evmos/evmos/v13/x/evm/types"
+	rpctypes "github.com/black/black/v13/rpc/types"
+	evmtypes "github.com/black/black/v13/x/evm/types"
 	"github.com/pkg/errors"
 )
 
@@ -116,7 +116,7 @@ func (b *Backend) GetProof(address common.Address, storageKeys []string, blockNr
 		Balance:      (*hexutil.Big)(balance.BigInt()),
 		CodeHash:     common.HexToHash(res.CodeHash),
 		Nonce:        hexutil.Uint64(res.Nonce),
-		StorageHash:  common.Hash{}, // NOTE: Evmos doesn't have a storage hash. TODO: implement?
+		StorageHash:  common.Hash{}, // NOTE: Black doesn't have a storage hash. TODO: implement?
 		StorageProof: storageProofs,
 	}, nil
 }

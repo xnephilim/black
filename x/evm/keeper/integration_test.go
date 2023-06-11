@@ -12,17 +12,17 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	"github.com/evmos/evmos/v13/app"
-	"github.com/evmos/evmos/v13/crypto/ethsecp256k1"
-	"github.com/evmos/evmos/v13/encoding"
-	"github.com/evmos/evmos/v13/testutil"
-	utiltx "github.com/evmos/evmos/v13/testutil/tx"
-	"github.com/evmos/evmos/v13/utils"
-	"github.com/evmos/evmos/v13/x/feemarket/types"
+	"github.com/black/black/v13/app"
+	"github.com/black/black/v13/crypto/ethsecp256k1"
+	"github.com/black/black/v13/encoding"
+	"github.com/black/black/v13/testutil"
+	utiltx "github.com/black/black/v13/testutil/tx"
+	"github.com/black/black/v13/utils"
+	"github.com/black/black/v13/x/feemarket/types"
 
 	"github.com/cosmos/cosmos-sdk/simapp"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	evmtypes "github.com/evmos/evmos/v13/x/evm/types"
+	evmtypes "github.com/black/black/v13/x/evm/types"
 	abci "github.com/tendermint/tendermint/abci/types"
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
@@ -174,7 +174,7 @@ func setupChain(localMinGasPricesStr string) {
 	// Initialize the app, so we can use SetMinGasPrices to set the
 	// validator-specific min-gas-prices setting
 	db := dbm.NewMemDB()
-	newapp := app.NewEvmos(
+	newapp := app.NewBlack(
 		log.NewNopLogger(),
 		db,
 		nil,

@@ -1,4 +1,4 @@
-// Copyright Tharsis Labs Ltd.(Evmos)
+// Copyright Tharsis Labs Ltd.(Black)
 // SPDX-License-Identifier:LGPL-3.0-only
 
 package keeper
@@ -8,7 +8,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/evmos/evmos/v13/x/revenue/v1/types"
+	"github.com/black/black/v13/x/revenue/v1/types"
 )
 
 // GetRevenues returns all registered Revenues.

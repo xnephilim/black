@@ -1,21 +1,21 @@
 {
   "metadata": [
     {
-      "description": "The native staking and governance token of the Evmos chain",
+      "description": "The native staking and governance token of the Black chain",
       "denom_units": [
         {
-          "denom": "aevmos",
+          "denom": "ablack",
           "exponent": 0
         },
         {
-          "denom": "evmos",
+          "denom": "black",
           "exponent": 18
         }
       ],
-      "base": "aevmos",
-      "display": "aevmos",
-      "name": "aevmos",
-      "symbol": "EVMOS"
+      "base": "ablack",
+      "display": "ablack",
+      "name": "ablack",
+      "symbol": "BLACK"
     },
     {
       "description": "The native staking and governance token of the Osmosis chain",

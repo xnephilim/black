@@ -1,14 +1,14 @@
-// Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// Copyright Tharsis Labs Ltd.(Black)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
 package v5
 
 import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/evmos/evmos/v13/x/evm/types"
+	"github.com/black/black/v13/x/evm/types"
 
-	v5types "github.com/evmos/evmos/v13/x/evm/migrations/v5/types"
+	v5types "github.com/black/black/v13/x/evm/migrations/v5/types"
 )
 
 // MigrateStore migrates the x/evm module state from the consensus version 4 to
@@ -33,8 +33,8 @@ func MigrateStore(
 	extraEIPsBz := store.Get(types.ParamStoreKeyExtraEIPs)
 	cdc.MustUnmarshal(extraEIPsBz, &extraEIPs)
 
-	// revert ExtraEIP change for Evmos testnet
-	if ctx.ChainID() == "evmos_9000-4" {
+	// revert ExtraEIP change for Black testnet
+	if ctx.ChainID() == "black_9000-4" {
 		extraEIPs.EIPs = []int64{}
 	}
 

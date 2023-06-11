@@ -1,5 +1,5 @@
-// Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// Copyright Tharsis Labs Ltd.(Black)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
 package rpc
 
 import (
@@ -29,11 +29,11 @@ import (
 	rpcclient "github.com/tendermint/tendermint/rpc/jsonrpc/client"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/evmos/evmos/v13/rpc/ethereum/pubsub"
-	rpcfilters "github.com/evmos/evmos/v13/rpc/namespaces/ethereum/eth/filters"
-	"github.com/evmos/evmos/v13/rpc/types"
-	"github.com/evmos/evmos/v13/server/config"
-	evmtypes "github.com/evmos/evmos/v13/x/evm/types"
+	"github.com/black/black/v13/rpc/ethereum/pubsub"
+	rpcfilters "github.com/black/black/v13/rpc/namespaces/ethereum/eth/filters"
+	"github.com/black/black/v13/rpc/types"
+	"github.com/black/black/v13/server/config"
+	evmtypes "github.com/black/black/v13/x/evm/types"
 )
 
 type WebsocketsServer interface {

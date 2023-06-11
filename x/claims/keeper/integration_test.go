@@ -12,12 +12,12 @@ import (
 	govv1beta1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/evmos/evmos/v13/crypto/ethsecp256k1"
-	"github.com/evmos/evmos/v13/testutil"
-	"github.com/evmos/evmos/v13/testutil/tx"
-	"github.com/evmos/evmos/v13/utils"
-	"github.com/evmos/evmos/v13/x/claims/types"
-	inflationtypes "github.com/evmos/evmos/v13/x/inflation/types"
+	"github.com/black/black/v13/crypto/ethsecp256k1"
+	"github.com/black/black/v13/testutil"
+	"github.com/black/black/v13/testutil/tx"
+	"github.com/black/black/v13/utils"
+	"github.com/black/black/v13/x/claims/types"
+	inflationtypes "github.com/black/black/v13/x/inflation/types"
 )
 
 var _ = Describe("Claiming", Ordered, func() {
@@ -93,7 +93,7 @@ var _ = Describe("Claiming", Ordered, func() {
 			s.app.AccountKeeper.SetAccount(s.ctx, acc)
 			claimsRecords = append(claimsRecords, claimsRecord)
 
-			balance := s.app.BankKeeper.GetBalance(s.ctx, addr, utils.BaseDenom) // claimsDenom == evmDenom == 'aevmos'
+			balance := s.app.BankKeeper.GetBalance(s.ctx, addr, utils.BaseDenom) // claimsDenom == evmDenom == 'ablack'
 			Expect(balance.Amount).To(Equal(initClaimsAmount.Add(initBalanceAmount)))
 		}
 

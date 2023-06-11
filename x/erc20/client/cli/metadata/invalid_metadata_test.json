@@ -4,18 +4,18 @@
       "description": 1,
       "denom_units": [
         {
-          "denom": "aevmos",
+          "denom": "ablack",
           "exponent": 0
         },
         {
-          "denom": "evmos",
+          "denom": "black",
           "exponent": 18
         }
       ],
-      "base": "aevmos",
-      "display": "aevmos",
-      "name": "aevmos",
-      "symbol": "EVMOS"
+      "base": "ablack",
+      "display": "ablack",
+      "name": "ablack",
+      "symbol": "BLACK"
     }
   ]
 }

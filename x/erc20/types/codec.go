@@ -1,5 +1,5 @@
-// Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// Copyright Tharsis Labs Ltd.(Black)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
 
 package types
 
@@ -27,9 +27,9 @@ var (
 
 const (
 	// Amino names
-	convertERC20Name = "evmos/MsgConvertERC20"
-	convertCoinName  = "evmos/MsgConvertCoin"
-	updateParams     = "evmos/erc20/MsgUpdateParams"
+	convertERC20Name = "black/MsgConvertERC20"
+	convertCoinName  = "black/MsgConvertCoin"
+	updateParams     = "black/erc20/MsgUpdateParams"
 )
 
 // NOTE: This is required for the GetSignBytes function

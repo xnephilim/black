@@ -13,17 +13,17 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/evmos/evmos/v13/app"
-	"github.com/evmos/evmos/v13/contracts"
-	"github.com/evmos/evmos/v13/crypto/ethsecp256k1"
-	"github.com/evmos/evmos/v13/testutil"
-	utiltx "github.com/evmos/evmos/v13/testutil/tx"
-	evmostypes "github.com/evmos/evmos/v13/types"
-	"github.com/evmos/evmos/v13/utils"
-	"github.com/evmos/evmos/v13/x/claims/types"
-	evm "github.com/evmos/evmos/v13/x/evm/types"
-	feemarkettypes "github.com/evmos/evmos/v13/x/feemarket/types"
-	incentivestypes "github.com/evmos/evmos/v13/x/incentives/types"
+	"github.com/black/black/v13/app"
+	"github.com/black/black/v13/contracts"
+	"github.com/black/black/v13/crypto/ethsecp256k1"
+	"github.com/black/black/v13/testutil"
+	utiltx "github.com/black/black/v13/testutil/tx"
+	blacktypes "github.com/black/black/v13/types"
+	"github.com/black/black/v13/utils"
+	"github.com/black/black/v13/x/claims/types"
+	evm "github.com/black/black/v13/x/evm/types"
+	feemarkettypes "github.com/black/black/v13/x/feemarket/types"
+	incentivestypes "github.com/black/black/v13/x/incentives/types"
 	"github.com/stretchr/testify/require"
 )
 
@@ -41,7 +41,7 @@ func (suite *KeeperTestSuite) DoSetupTest(t require.TestingT) {
 
 	suite.app = app.Setup(false, feemarkettypes.DefaultGenesisState())
 	header := testutil.NewHeader(
-		1, time.Now().UTC(), "evmos_9001-1", consAddress, nil, nil,
+		1, time.Now().UTC(), "black_9001-1", consAddress, nil, nil,
 	)
 	suite.ctx = suite.app.BaseApp.NewContext(false, header)
 
@@ -107,8 +107,8 @@ func (suite *KeeperTestSuite) CommitAfter(t time.Duration) {
 	suite.queryClientEvm = evm.NewQueryClient(queryHelperEvm)
 }
 
-func newEthAccount(baseAccount *authtypes.BaseAccount) evmostypes.EthAccount {
-	return evmostypes.EthAccount{
+func newEthAccount(baseAccount *authtypes.BaseAccount) blacktypes.EthAccount {
+	return blacktypes.EthAccount{
 		BaseAccount: baseAccount,
 		CodeHash:    common.BytesToHash(crypto.Keccak256(nil)).String(),
 	}

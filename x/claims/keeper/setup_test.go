@@ -11,9 +11,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	"github.com/evmos/evmos/v13/app"
-	"github.com/evmos/evmos/v13/x/claims/types"
-	evm "github.com/evmos/evmos/v13/x/evm/types"
+	"github.com/black/black/v13/app"
+	"github.com/black/black/v13/x/claims/types"
+	evm "github.com/black/black/v13/x/evm/types"
 	"github.com/stretchr/testify/suite"
 )
 
@@ -24,7 +24,7 @@ type KeeperTestSuite struct {
 
 	ctx sdk.Context
 
-	app            *app.Evmos
+	app            *app.Black
 	queryClient    types.QueryClient
 	queryClientEvm evm.QueryClient
 	address        common.Address

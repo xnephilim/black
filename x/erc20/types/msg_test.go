@@ -10,8 +10,8 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 
-	utiltx "github.com/evmos/evmos/v13/testutil/tx"
-	"github.com/evmos/evmos/v13/x/erc20/types"
+	utiltx "github.com/black/black/v13/testutil/tx"
+	"github.com/black/black/v13/x/erc20/types"
 
 	"github.com/ethereum/go-ethereum/common"
 )
@@ -98,7 +98,7 @@ func (suite *MsgsTestSuite) TestMsgConvertCoin() {
 			"msg convert coin - invalid sender",
 			sdk.NewCoin("coin", sdk.NewInt(100)),
 			utiltx.GenerateAddress().String(),
-			"evmosinvalid",
+			"blackinvalid",
 			false,
 		},
 		{

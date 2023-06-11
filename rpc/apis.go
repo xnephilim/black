@@ -1,5 +1,5 @@
-// Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// Copyright Tharsis Labs Ltd.(Black)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
 package rpc
 
 import (
@@ -10,16 +10,16 @@ import (
 
 	"github.com/ethereum/go-ethereum/rpc"
 
-	"github.com/evmos/evmos/v13/rpc/backend"
-	"github.com/evmos/evmos/v13/rpc/namespaces/ethereum/debug"
-	"github.com/evmos/evmos/v13/rpc/namespaces/ethereum/eth"
-	"github.com/evmos/evmos/v13/rpc/namespaces/ethereum/eth/filters"
-	"github.com/evmos/evmos/v13/rpc/namespaces/ethereum/miner"
-	"github.com/evmos/evmos/v13/rpc/namespaces/ethereum/net"
-	"github.com/evmos/evmos/v13/rpc/namespaces/ethereum/personal"
-	"github.com/evmos/evmos/v13/rpc/namespaces/ethereum/txpool"
-	"github.com/evmos/evmos/v13/rpc/namespaces/ethereum/web3"
-	"github.com/evmos/evmos/v13/types"
+	"github.com/black/black/v13/rpc/backend"
+	"github.com/black/black/v13/rpc/namespaces/ethereum/debug"
+	"github.com/black/black/v13/rpc/namespaces/ethereum/eth"
+	"github.com/black/black/v13/rpc/namespaces/ethereum/eth/filters"
+	"github.com/black/black/v13/rpc/namespaces/ethereum/miner"
+	"github.com/black/black/v13/rpc/namespaces/ethereum/net"
+	"github.com/black/black/v13/rpc/namespaces/ethereum/personal"
+	"github.com/black/black/v13/rpc/namespaces/ethereum/txpool"
+	"github.com/black/black/v13/rpc/namespaces/ethereum/web3"
+	"github.com/black/black/v13/types"
 
 	rpcclient "github.com/tendermint/tendermint/rpc/jsonrpc/client"
 )

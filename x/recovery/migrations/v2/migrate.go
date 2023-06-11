@@ -1,5 +1,5 @@
-// Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// Copyright Tharsis Labs Ltd.(Black)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
 
 package v2
 
@@ -8,8 +8,8 @@ import (
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	v2types "github.com/evmos/evmos/v13/x/recovery/migrations/v2/types"
-	"github.com/evmos/evmos/v13/x/recovery/types"
+	v2types "github.com/black/black/v13/x/recovery/migrations/v2/types"
+	"github.com/black/black/v13/x/recovery/types"
 )
 
 // MigrateStore migrates the x/recovery module state from the consensus version 1 to

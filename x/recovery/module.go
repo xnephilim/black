@@ -1,5 +1,5 @@
-// Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// Copyright Tharsis Labs Ltd.(Black)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
 
 package recovery
 
@@ -22,9 +22,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 
-	"github.com/evmos/evmos/v13/x/recovery/client/cli"
-	"github.com/evmos/evmos/v13/x/recovery/keeper"
-	"github.com/evmos/evmos/v13/x/recovery/types"
+	"github.com/black/black/v13/x/recovery/client/cli"
+	"github.com/black/black/v13/x/recovery/keeper"
+	"github.com/black/black/v13/x/recovery/types"
 )
 
 // type check to ensure the interface is properly implemented

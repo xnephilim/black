@@ -1,5 +1,5 @@
-// Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// Copyright Tharsis Labs Ltd.(Black)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
 
 package types
 
@@ -9,9 +9,9 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
-	"github.com/evmos/evmos/v13/x/incentives/types"
+	"github.com/black/black/v13/x/incentives/types"
 
-	epochstypes "github.com/evmos/evmos/v13/x/epochs/types"
+	epochstypes "github.com/black/black/v13/x/epochs/types"
 )
 
 var _ types.LegacyParams = &V2Params{}

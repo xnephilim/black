@@ -1,4 +1,4 @@
-Evmos Non-Commercial License
+Black Non-Commercial License
 
 Version 1.0 dated April 21th, 2023
 
@@ -23,7 +23,7 @@ granted in this license.
 If Licensee violates any of these terms or uses the Software in a way not
 authorized under this license, the license granted to Licensee ends immediately.
 If Licensee makes, or authorizes any other person to make, any written claim
-that the Software, or any other Evmos Product (see below), infringes or
+that the Software, or any other Black Product (see below), infringes or
 contributes to the infringement of any patent, all rights granted to Licensee
 under this license end immediately.
 
@@ -35,16 +35,16 @@ claim.
 Terms in this license are used as follows:
 
 “Software” means the blockchain software developed by the Company, which is the
-implementation of the Evmos blockchains available at
-“https://github.com/evmos/evmos” and the Evmos applications at
-“https://github.com/evmos/backend” and “https://github.com/evmos/apps” as may be
+implementation of the Black blockchains available at
+“https://github.com/black/black” and the Black applications at
+“https://github.com/black/backend” and “https://github.com/black/apps” as may be
 updated from time to time.
 
 "Designated Blockchains" refer to the version of the digital blockchain ledger
 that, at any given time, is recognized as canonical in accordance with the
 blockchain consensus..
 
-A “Evmos Product” is any product or service offered by the Company or its
+A “Black Product” is any product or service offered by the Company or its
 affiliates.
 
 “Non-Commercial Use” means academic, scientific, or research and development
@@ -61,4 +61,4 @@ Software or any part of it.
 -----------------------------------------------------------------------------
 
 For more information, please refer to the official ENCL-1.0 FAQ
-(https://github.com/evmos/evmos/blob/main/LICENSE_FAQ).
+(https://github.com/black/black/blob/main/LICENSE_FAQ).

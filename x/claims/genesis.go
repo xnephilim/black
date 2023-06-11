@@ -1,4 +1,4 @@
-// Copyright Tharsis Labs Ltd.(Evmos)
+// Copyright Tharsis Labs Ltd.(Black)
 // SPDX-License-Identifier:LGPL-3.0-only
 
 package claims
@@ -10,8 +10,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/evmos/evmos/v13/x/claims/keeper"
-	"github.com/evmos/evmos/v13/x/claims/types"
+	"github.com/black/black/v13/x/claims/keeper"
+	"github.com/black/black/v13/x/claims/types"
 )
 
 // InitGenesis initializes the claim module's state from a provided genesis

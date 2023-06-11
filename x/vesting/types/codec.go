@@ -1,5 +1,5 @@
-// Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// Copyright Tharsis Labs Ltd.(Black)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
 
 package types
 
@@ -24,10 +24,10 @@ var (
 
 const (
 	// Amino names
-	clawback                     = "evmos/MsgClawback"
-	createClawbackVestingAccount = "evmos/MsgCreateClawbackVestingAccount"
-	updateVestingFunder          = "evmos/MsgUpdateVestingFunder"
-	convertVestingAccount        = "evmos/MsgConvertVestingAccount"
+	clawback                     = "black/MsgClawback"
+	createClawbackVestingAccount = "black/MsgCreateClawbackVestingAccount"
+	updateVestingFunder          = "black/MsgUpdateVestingFunder"
+	convertVestingAccount        = "black/MsgConvertVestingAccount"
 )
 
 // NOTE: This is required for the GetSignBytes function

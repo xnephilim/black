@@ -1,5 +1,5 @@
-// Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// Copyright Tharsis Labs Ltd.(Black)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/black/black/blob/main/LICENSE)
 
 package keeper
 
@@ -16,9 +16,9 @@ import (
 	errortypes "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/cosmos/cosmos-sdk/types/query"
 	"github.com/ethereum/go-ethereum/common"
-	evmostypes "github.com/evmos/evmos/v13/types"
+	blacktypes "github.com/black/black/v13/types"
 
-	"github.com/evmos/evmos/v13/x/incentives/types"
+	"github.com/black/black/v13/x/incentives/types"
 )
 
 var _ types.QueryServer = Keeper{}
@@ -77,7 +77,7 @@ func (k Keeper) Incentive(
 	}
 
 	// check if the contract is a hex address
-	if err := evmostypes.ValidateAddress(req.Contract); err != nil {
+	if err := blacktypes.ValidateAddress(req.Contract); err != nil {
 		return nil, status.Errorf(
 			codes.InvalidArgument,
 			"invalid format for contract %s, should be hex ('0x...')", req.Contract,
@@ -113,7 +113,7 @@ func (k Keeper) GasMeters(
 	}
 
 	// check if the contract is a hex address
-	if err := evmostypes.ValidateAddress(req.Contract); err != nil {
+	if err := blacktypes.ValidateAddress(req.Contract); err != nil {
 		return nil, status.Errorf(
 			codes.InvalidArgument,
 			errorsmod.Wrapf(errortypes.ErrInvalidAddress, "invalid contract address %s", req.Contract).Error(),
@@ -172,7 +172,7 @@ func (k Keeper) GasMeter(
 	}
 
 	// check if the contract is a hex address
-	if err := evmostypes.ValidateAddress(req.Contract); err != nil {
+	if err := blacktypes.ValidateAddress(req.Contract); err != nil {
 		return nil, status.Errorf(
 			codes.InvalidArgument,
 			errorsmod.Wrapf(errortypes.ErrInvalidAddress, "invalid contract address %s", req.Contract).Error(),
@@ -187,7 +187,7 @@ func (k Keeper) GasMeter(
 	}
 
 	// check if the participant is a hex address
-	if err := evmostypes.ValidateAddress(req.Participant); err != nil {
+	if err := blacktypes.ValidateAddress(req.Participant); err != nil {
 		return nil, status.Errorf(
 			codes.InvalidArgument,
 			errorsmod.Wrapf(errortypes.ErrInvalidAddress, "invalid participant address %s", req.Participant).Error(),
